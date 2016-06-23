@@ -1,0 +1,14 @@
+//2016.06.23 first release
+_iteration = INPUT("iteration amount", "10", FALSE, 15, 0)
+FUKIDASI("3",0,0)
+SLEEP(1)
+FUKIDASI("2",0,0)
+SLEEP(1)
+FUKIDASI("1",0,0)
+SLEEP(1)
+FUKIDASI("0",0,0)
+FOR i=1 TO _iteration
+  BTN(CLICK)
+  SLEEP(0.5)
+NEXT
+FUKIDASI()
