@@ -1,0 +1,5 @@
+//2016.08.16 first release
+_wid=GETID("Windows タスク マネージャー","")
+if _wid>-1 then
+  ACW(_wid,100,0,671,477,_delay_ms)
+endif
